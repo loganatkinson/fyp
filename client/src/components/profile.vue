@@ -26,10 +26,6 @@
               <h4>Selected Legend</h4>
               <p>{{profileData.metadata.activeLegendName}}</p>
             </li>
-            <li>
-              <h4>Selected Legend</h4>
-              <p>{{profileData.metadata.activeLegendName}}</p>
-            </li>
             <li v-if="profileData.segments[0].stats.season5Wins">
               <h4>Season 5 Wins</h4>
               <p>
