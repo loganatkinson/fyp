@@ -17,7 +17,7 @@ export default {
 
 <style>
 :root {
-  --primary-color: #953036;
+  --primary-color: #2d2929;
 }
 * {
   box-sizing: border-box;

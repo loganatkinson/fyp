@@ -30,14 +30,14 @@
               <h4>Season 5 Wins</h4>
               <p>
                 {{profileData.segments[0].stats.season5Wins.displayValue}}
-              <span>({{profileData.segments[0].stats.season5Wins.percentile}})</span>
+              <span>(Top {{profileData.segments[0].stats.season5Wins.percentile}}% of players)</span>
             </p>
             </li>
             <li v-if="profileData.segments[0].stats.level">
               <h4>Apex Level</h4>
               <p>
                 {{profileData.segments[0].stats.level.displayValue}}
-                <span>({{profileData.segments[0].stats.level.percentile}}%)</span>
+                <span>(Top {{profileData.segments[0].stats.level.percentile}}% of players)</span>
               </p>
             </li>
             <li v-if="profileData.segments[0].stats.kills">
